@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 export class NewsItem extends Component {
   render() {
+    
     let { title, description, imageurl, url, author, date, source } =
       this.props;
     return (
@@ -10,6 +11,7 @@ export class NewsItem extends Component {
           className="card"
           style={{ width: "18rem", height: "30rem" }}
         >
+          {/* top tag source */}
           <div
             style={{
               display: "flex",
